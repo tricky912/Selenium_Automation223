@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="126.532" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="G:\Automation\java_selenium_practice\SeleniumProject2\target\test-classes;G:\Automation\java_selenium_practice\SeleniumProject2\target\classes;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\world\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\world\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\world\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\world\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\world\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\world\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\world\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\world\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\world\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\world\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\world\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\world\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\world\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.2\log4j-api-2.24.2.jar;C:\Users\world\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.2\log4j-slf4j-impl-2.24.2.jar;C:\Users\world\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\world\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\world\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\world\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\world\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\world\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\world\.m2\repository\io\github\selcukes\selcukes-extent-reports\2.3.13\selcukes-extent-reports-2.3.13.jar;C:\Users\world\.m2\repository\io\github\selcukes\selcukes-snapshot\2.3.13\selcukes-snapshot-2.3.13.jar;C:\Users\world\.m2\repository\io\github\selcukes\selcukes-commons\2.3.13\selcukes-commons-2.3.13.jar;C:\Users\world\.m2\repository\io\github\selcukes\selcukes-databind\2.3.13\selcukes-databind-2.3.13.jar;C:\Users\world\.m2\repository\io\github\selcukes\selcukes-collections\2.3.13\selcukes-collections-2.3.13.jar;C:\Users\world\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.2\jackson-dataformat-yaml-2.18.2.jar;C:\Users\world\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\world\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\world\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\world\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.18.2\jackson-dataformat-xml-2.18.2.jar;C:\Users\world\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\world\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\world\.m2\repository\com\fasterxml\woodstox\woodstox-core\7.0.0\woodstox-core-7.0.0.jar;C:\Users\world\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\world\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\world\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\world\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\world\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\world\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\world\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\world\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\world\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\world\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\world\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\world\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\world\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\world\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\world\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\world\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\world\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\world\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\world\AppData\Local\Temp\surefire5485339516572921813\surefirebooter-20241223205728448_3.jar C:\Users\world\AppData\Local\Temp\surefire5485339516572921813 2024-12-23T20-57-28_157-jvmRun1 surefire-20241223205728448_1tmp surefire_0-20241223205728448_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="G:\Automation\java_selenium_practice\SeleniumProject2\target\test-classes;G:\Automation\java_selenium_practice\SeleniumProject2\target\classes;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\world\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\world\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\world\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\world\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\world\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\world\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\world\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\world\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\world\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\world\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\world\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\world\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\world\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.2\log4j-api-2.24.2.jar;C:\Users\world\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.2\log4j-slf4j-impl-2.24.2.jar;C:\Users\world\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\world\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\world\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\world\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\world\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\world\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\world\.m2\repository\io\github\selcukes\selcukes-extent-reports\2.3.13\selcukes-extent-reports-2.3.13.jar;C:\Users\world\.m2\repository\io\github\selcukes\selcukes-snapshot\2.3.13\selcukes-snapshot-2.3.13.jar;C:\Users\world\.m2\repository\io\github\selcukes\selcukes-commons\2.3.13\selcukes-commons-2.3.13.jar;C:\Users\world\.m2\repository\io\github\selcukes\selcukes-databind\2.3.13\selcukes-databind-2.3.13.jar;C:\Users\world\.m2\repository\io\github\selcukes\selcukes-collections\2.3.13\selcukes-collections-2.3.13.jar;C:\Users\world\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.2\jackson-dataformat-yaml-2.18.2.jar;C:\Users\world\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\world\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\world\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\world\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.18.2\jackson-dataformat-xml-2.18.2.jar;C:\Users\world\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\world\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\world\.m2\repository\com\fasterxml\woodstox\woodstox-core\7.0.0\woodstox-core-7.0.0.jar;C:\Users\world\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\world\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\world\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\world\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\world\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\world\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\world\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\world\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\world\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\world\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\world\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\world\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\world\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\world\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\world\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\world\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\world\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\world\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\world\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\world\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\world"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="G:\Automation\java_selenium_practice\SeleniumProject2"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\world\AppData\Local\Temp\surefire5485339516572921813\surefirebooter-20241223205728448_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="user.name" value="world"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\world\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\world\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="G:\Automation\java_selenium_practice\SeleniumProject2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-22\bin;C:\Program Files\Java\jdk-22\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\world\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="VerifyAccReg" classname="testCase.TC001RegTestcase" time="7.556">
+    <system-out><![CDATA[2024-12-23 20:57:37,295(HH:mm:ss.SSS) [main] INFO  testCase.TC001RegTestcase(36) Page title after opening: Your Store
+2024-12-23 20:57:37,939(HH:mm:ss.SSS) [main] INFO  testCase.TC001RegTestcase(36) Navigated to Home page
+2024-12-23 20:57:38,747(HH:mm:ss.SSS) [main] INFO  testCase.TC001RegTestcase(36) Clicked on Registration Page
+2024-12-23 20:57:39,638(HH:mm:ss.SSS) [main] INFO  testCase.TC001RegTestcase(36) Submitted Details
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyAccReg" classname="testCase.TC001RegTestcase" time="6.863">
+    <system-out><![CDATA[Test Suite Execution Finished: chhromeTest
+2024-12-23 20:58:36,739(HH:mm:ss.SSS) [main] INFO  testCase.TC001RegTestcase(36) Page title after opening: Your Store
+2024-12-23 20:58:36,771(HH:mm:ss.SSS) [main] INFO  testCase.TC001RegTestcase(36) Navigated to Home page
+2024-12-23 20:58:37,369(HH:mm:ss.SSS) [main] INFO  testCase.TC001RegTestcase(36) Clicked on Registration Page
+2024-12-23 20:58:38,075(HH:mm:ss.SSS) [main] INFO  testCase.TC001RegTestcase(36) Submitted Details
+]]></system-out>
+  </testcase>
+  <testcase name="TC002testLogin" classname="testCase.TC002LoginTestcase" time="3.431">
+    <system-out><![CDATA[2024-12-23 20:57:49,170(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) Page title after opening: Your Store
+2024-12-23 20:57:49,193(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) *******Starting TC002 Login Testcase*******
+2024-12-23 20:57:49,194(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) Navigated to Home page
+2024-12-23 20:57:49,970(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) Clicked on Login
+2024-12-23 20:57:50,001(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) Entering details on Login Page
+2024-12-23 20:57:52,625(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) Logged in Successfully
+2024-12-23 20:57:52,625(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) ******************Finished Executing Testcase***************
+]]></system-out>
+  </testcase>
+  <testcase name="TC002testLogin" classname="testCase.TC002LoginTestcase" time="3.866">
+    <system-out><![CDATA[2024-12-23 20:58:50,497(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) Page title after opening: Your Store
+2024-12-23 20:58:50,529(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) *******Starting TC002 Login Testcase*******
+2024-12-23 20:58:50,530(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) Navigated to Home page
+2024-12-23 20:58:51,337(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) Clicked on Login
+2024-12-23 20:58:51,338(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) Entering details on Login Page
+2024-12-23 20:58:54,393(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) Logged in Successfully
+2024-12-23 20:58:54,394(HH:mm:ss.SSS) [main] INFO  testCase.TC002LoginTestcase(36) ******************Finished Executing Testcase***************
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginwithdata[SaiN@gmail.com, Test@123, valid](1)" classname="testCase.TC003LoginwithDDT" time="6.878">
+    <system-out><![CDATA[2024-12-23 20:57:56,506(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Page title after opening: Your Store
+2024-12-23 20:57:58,421(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) *******Starting TC003LoginwithDDT*******
+2024-12-23 20:57:58,422(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Navigated to Home page
+2024-12-23 20:57:58,984(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Clicked on Login
+2024-12-23 20:57:58,984(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Entering details on Login Page
+2024-12-23 20:58:01,560(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Logged in Successfully
+2024-12-23 20:58:05,287(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) ******************Finished Executing Testcase***************
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginwithdata[SaiN@gmail.com, Test@123, valid](1)" classname="testCase.TC003LoginwithDDT" time="6.953">
+    <system-out><![CDATA[2024-12-23 20:58:59,145(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Page title after opening: Your Store
+2024-12-23 20:59:00,131(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) *******Starting TC003LoginwithDDT*******
+2024-12-23 20:59:00,131(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Navigated to Home page
+2024-12-23 20:59:00,825(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Clicked on Login
+2024-12-23 20:59:00,827(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Entering details on Login Page
+2024-12-23 20:59:03,515(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Logged in Successfully
+2024-12-23 20:59:07,077(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) ******************Finished Executing Testcase***************
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginwithdata[sain@gmail.com, sai123, invalid](2)" classname="testCase.TC003LoginwithDDT" time="13.141">
+    <system-out><![CDATA[2024-12-23 20:58:05,296(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) *******Starting TC003LoginwithDDT*******
+2024-12-23 20:58:05,298(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Navigated to Home page
+2024-12-23 20:58:05,850(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Clicked on Login
+2024-12-23 20:58:05,853(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Entering details on Login Page
+2024-12-23 20:58:18,405(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Logged in Successfully
+2024-12-23 20:58:18,406(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) ******************Finished Executing Testcase***************
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginwithdata[sain@gmail.com, sai123, invalid](2)" classname="testCase.TC003LoginwithDDT" time="13.214">
+    <system-out><![CDATA[2024-12-23 20:59:07,083(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) *******Starting TC003LoginwithDDT*******
+2024-12-23 20:59:07,084(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Navigated to Home page
+2024-12-23 20:59:07,715(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Clicked on Login
+2024-12-23 20:59:07,716(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Entering details on Login Page
+2024-12-23 20:59:20,280(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Logged in Successfully
+2024-12-23 20:59:20,280(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) ******************Finished Executing Testcase***************
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginwithdata[ksain@gmail.com, sai123, invalid](3)" classname="testCase.TC003LoginwithDDT" time="13.09">
+    <system-out><![CDATA[2024-12-23 20:58:18,420(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) *******Starting TC003LoginwithDDT*******
+2024-12-23 20:58:18,422(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Navigated to Home page
+2024-12-23 20:58:19,086(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Clicked on Login
+2024-12-23 20:58:19,088(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Entering details on Login Page
+2024-12-23 20:58:31,513(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Logged in Successfully
+2024-12-23 20:58:31,514(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) ******************Finished Executing Testcase***************
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginwithdata[ksain@gmail.com, sai123, invalid](3)" classname="testCase.TC003LoginwithDDT" time="13.244">
+    <system-out><![CDATA[2024-12-23 20:59:20,290(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) *******Starting TC003LoginwithDDT*******
+2024-12-23 20:59:20,294(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Navigated to Home page
+2024-12-23 20:59:21,100(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Clicked on Login
+2024-12-23 20:59:21,107(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Entering details on Login Page
+2024-12-23 20:59:33,524(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) Logged in Successfully
+2024-12-23 20:59:33,525(HH:mm:ss.SSS) [main] INFO  testCase.TC003LoginwithDDT(36) ******************Finished Executing Testcase***************
+]]></system-out>
+  </testcase>
+</testsuite>

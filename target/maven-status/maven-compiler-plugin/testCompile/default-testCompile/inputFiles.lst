@@ -1,0 +1,14 @@
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\pageObjects\BaseClass.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\pageObjects\HomePage.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\pageObjects\loginPage.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\pageObjects\MyAccountPage.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\pageObjects\regPage.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\testBase\CommonScenarios.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\testCase\RegTestcase2.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\testCase\TC001RegTestcase.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\testCase\TC002LoginTestcase.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\testCase\TC003LoginwithDDT.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\utilities\Dataprovider.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\utilities\Excelutility.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\utilities\ExtentReportManager.java
+G:\Automation\java_selenium_practice\SeleniumProject2\src\test\java\utilities\ExtentReportUtility.java
